@@ -1,0 +1,51 @@
+{
+  "manifest_version": 3,
+  "name": "LeetLOL Meme Reactions",
+  "description": "Play meme videos after LeetCode submissions based on the result.",
+  "version": "0.1.0",
+  "host_permissions": [
+    "https://leetcode.com/*",
+    "https://*.leetcode.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://leetcode.com/problems/*"
+      ],
+      "js": [
+        "scripts/content.js"
+      ],
+      "css": [
+        "styles/content.css"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "assets/success1.mp4",
+        "assets/success2.mp4",
+        "assets/success3.mp4",
+        "assets/success4.mp4",
+        "assets/success5.mp4",
+        "assets/success6.mp4",
+        "assets/success7.mp4",
+        "assets/failure1.mp4",
+        "assets/failure2.mp4",
+        "assets/failure3.mp4",
+        "assets/failure4.mp4",
+        "assets/failure5.mp4",
+        "assets/failure6.mp4",
+        "assets/failure7.mp4"
+      ],
+      "matches": [
+        "https://leetcode.com/*"
+      ]
+    }
+  ],
+  "action": {
+    "default_title": "LeetLOL Meme Reactions"
+  }
+}
+
