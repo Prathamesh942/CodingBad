@@ -1,3 +1,6 @@
+[![Buy Me a Coffee](https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=prathamesh94&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff)](https://www.buymeacoffee.com/prathamesh94)
+
+
 # LeetLOL Meme Reactions
 
 A lightweight Chrome extension that watches your LeetCode submissions and plays a meme video whenever a result comes back. Celebratory clip for accepted solutions, a different meme when things go sideways.
