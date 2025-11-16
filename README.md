@@ -1,8 +1,6 @@
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/prathamesh94)
 
 
-# LeetLOL Meme Reactions
-
 A lightweight Chrome extension that watches your LeetCode submissions and plays a meme video whenever a result comes back. Celebratory clip for accepted solutions, a different meme when things go sideways.
 
 ## Features
